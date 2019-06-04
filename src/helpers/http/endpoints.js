@@ -1,17 +1,17 @@
 import { BASE_URL } from './constants'
 
 const login = {
-  auth: 'https://sso.homolog.aasp.org.br/connect/token'
+  auth: 'https://sso.homolog.meuhost.org.br/'
 }
 
-const intimacoes = {
-  list: BASE_URL + '/intimacoes',
-  byId: BASE_URL + '/intimacoes/id/'
+const minhaRota = {
+  list: BASE_URL + '/minha-rota',
+  byId: BASE_URL + '/minha-rota/id/'
 }
 
 const endpoints = {
   login,
-  intimacoes
+  minhaRota
 }
 
 export default endpoints

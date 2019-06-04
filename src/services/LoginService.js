@@ -14,10 +14,9 @@ const login = (login, senha) => new Promise(resolve => {
 
   const payload = new URLSearchParams()
   payload.append('grant_type', 'password')
-  payload.append('scope', 'openid profile servicointimacoes intimacoesapi')
   payload.append('username', login)
   payload.append('password', senha)
-  payload.append('client_id', 'app_gerenciador')
+  payload.append('client_id', 'seu_client')
   payload.append('client_secret', 'secret')
 
   axios.post(endpoints.login.auth, payload, headerAuth)

@@ -1,16 +1,16 @@
 const big = {
-  width: 215,
-  height: 46
+  width: 200,
+  height: 200
 }
 
 const medium = {
-  width: 190,
-  height: 40
+  width: 100,
+  height: 100
 }
 
 const small = {
-  width: 148,
-  height: 33
+  width: 50,
+  height: 50
 }
 
 const styles = {

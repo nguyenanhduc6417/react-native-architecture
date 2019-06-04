@@ -19,7 +19,7 @@ const RoutesConfig = () => ({
   Home: {
     screen: Login, 
     navigationOptions: ({ navigation }) => ({
-      headerTitle: 'Gerenciador de Escritório',
+      headerTitle: 'Login',
       headerLeft: null, //<BackButton navigation={navigation} />,
       headerTitleStyle: {
         fontWeight: 'normal'

@@ -9,7 +9,8 @@ import {
   ContainerScroll,
   Text,
   EditText,
-  Button
+  Button,
+  Logo
 } from '../components'
 
 import { withLoading } from '../hocs'
@@ -24,9 +25,6 @@ const Login = props => {
   const [senha, setSenha] = useState('')
 
   const doLogin = async () => {
-    //user: 164201
-    //pass: 8698
-
     if (login.trim() == '' || senha.trim() == '') {
       Alert.alert('Preencha todos os campos')
       return
@@ -64,7 +62,7 @@ const Login = props => {
   return (
     <ContainerScroll>
       <ContainerLinear center weight={0.8}>
-        <Text style={styles.textTitle}>AASP</Text>
+        <Logo />
       </ContainerLinear>
       
       <ContainerLinear center horizontal weight={1}>

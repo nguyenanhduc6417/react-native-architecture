@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://gerenciador.homolog.aasp.org.br/'
+export const BASE_URL = 'https://meuhost.homolog.com.br/'
