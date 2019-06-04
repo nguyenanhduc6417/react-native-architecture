@@ -1,3 +1,3 @@
 ## React Native base architecture
 
-A Flutter base architecture to start a new project
+A React Native base architecture to start a new project
